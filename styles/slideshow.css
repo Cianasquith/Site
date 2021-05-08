@@ -1,4 +1,4 @@
-*::before,
+/* *::before,
 *::after { box-sizing: border-box; }
 
 
@@ -13,7 +13,7 @@
 
 }
 
-/*Light blue cover above the slide show*/
+
 .card::after {
   content: '';
   position: absolute;
@@ -70,4 +70,4 @@
   25% { transform: translateX( 0 ); }
   28% { transform: translateX( -1920px ); }
   100% { transform: translateX( -1920px ); }
-}
+} */
