@@ -33,7 +33,6 @@ body {
 .logoconqueror {
   position: absolute;
   top: 55px;
-  height:100%;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -191,7 +190,7 @@ body {
   color:#6A7894 ;
   right: 0px;
   text-decoration:none;
-  background: #2A313F;
+  background: #393939;
   padding: 17.3px 35px;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
