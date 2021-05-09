@@ -9,6 +9,47 @@ body {
 }
 
 
+.leftside {
+  top: 100px;
+  position: absolute;
+  width: 70%;
+  height:auto;
+  left: 0px;
+  background-color: #2AA171;
+  z-index: 2;
+}
+
+.leftpicture {
+  height: 500px;
+  width: 50%;
+  left: 0px;
+  background-color: #268F64;
+}
+.textleftpicture {
+
+}
+
+
+
+.leftpicture2 {
+  height: 400px;
+  width: 50%;
+  left: 0px;
+  background-color: #217B57;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .topbar {
 position: absolute;
 width: 100%;
@@ -27,7 +68,7 @@ background: #4D5256;
   position: absolute;
   height:10px;
   width: 10px;
-  z-index: 10;
+  z-index: 1;
   position: fixed;
 }
 
@@ -165,6 +206,7 @@ background: #4D5256;
 
 
 .bottompage{
+  z-index: 3;
 position: absolute;
 width: 100%;
 height: 80px;
