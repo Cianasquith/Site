@@ -1,0 +1,108 @@
+/* Rectangle 8 */
+
+.topbar {
+position: absolute;
+width: 100%;
+height: 100px;
+left: 0px;
+top: 0px;
+
+background: #4D5256;
+  box-shadow: inset 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+/* Rectangle 10 */
+.topleftlogo {
+  top: -5px;
+  left: 20px;
+  position: absolute;
+  height:10px;
+  width: 10px;
+  z-index: 10;
+  position: fixed;
+}
+
+
+/* WARFRAME */
+.conqueror {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  position: fixed;
+  color: #C3CFD9;
+  padding:0px 50px;
+  left: 30%;
+  line-height: 90px;
+  height: 92px;
+  width:auto;
+  text-decoration:none;
+}
+.conqueror:hover {
+  color: #4D5256;
+  background: grey;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+.warframe {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  position: fixed;
+  color: #C3CFD9;
+  padding:0px 50px;
+  left: 45%;
+  line-height: 90px;
+  height: 92px;
+  width:auto;
+  text-decoration:none;
+}
+.warframe:hover {
+  color: #4D5256;
+  background: grey;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* C’S.B */
+
+
+
+/* GUILDWARS2 */
+
+.guildwars {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  position: fixed;
+  color: #C3CFD9;
+  padding:0px 50px;
+  left: 62%;
+  line-height: 90px;
+  height: 92px;
+  width:auto;
+  text-decoration:none;
+}
+.guildwars:hover {
+  color: #4D5256;
+  background: grey;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+
+.bottompage{
+position: absolute;
+width: 100%;
+height: 80px;
+left: 0px;
+bottom: 0px;
+
+background: #4D5256;
+}

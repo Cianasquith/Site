@@ -125,7 +125,7 @@
 
   height: 55px;
   line-height: 55px;
-  background: rgba(0, 0, 0, 0.90);
+  background: #1C1C1C;
   z-index: 2;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
