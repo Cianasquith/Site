@@ -1,11 +1,10 @@
 
 body {
-  background: #2D2D2D;
-
-  animation: fadebackground 2s  ;
+background-color: #2D2D2D;
+  animation: fadebackground 1.5s  ;
 }
 @keyframes fadebackground {
-  from {background-color:#black; opacity: 0%}
+  from {background-color:black; opacity: 0%}
   to {background-color: #2D2D2D; }
 }
 
@@ -23,7 +22,6 @@ body {
   position: fixed;
   z-index: 6;
 }
-
 
 
 .topleftlogo {
