@@ -1,4 +1,13 @@
-/* Rectangle 8 */
+body {
+  background: #2EB07B;
+
+  animation: fadebackground 3s  ;
+}
+@keyframes fadebackground {
+  from {background-color:#1C1C1C; opacity: 0%}
+  to {background-color: #2EB07B; }
+}
+
 
 .topbar {
 position: absolute;
@@ -92,6 +101,64 @@ background: #4D5256;
   transition: all 0.3s ease-in-out;
 }
 
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+
+.search-box {
+  top: 28px;
+  left: 85%;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px white;
+  display: inline-block;
+  position: relative;
+  border-radius: 50px;
+}
+.search-box input[type="text"] {
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  padding: 5px 20px 5px 10px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 50px;
+  transition: width 500ms cubic-bezier(0.5, -0.5, 0.5, 0.5) 600ms;
+  background: #4D5256;
+}
+.search-box input[type="text"]:focus {
+  outline: none;
+    background: #4D5256;
+}
+.search-box input[type="text"]:focus,
+.search-box input[type="text"]:not(:placeholder-shown) {
+  width: 200px;
+  background: #4D5256;
+  transition: width 500ms cubic-bezier(0.5, -0.5, 0.5, 1);
+}
+
+
+.search-box span {
+  color: white;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -16px;
+  right: -16px;
+  transition: bottom 300ms ease-out 300ms, right 300ms ease-out 300ms;
+}
+.search-box span:before, .search-box span:after {
+  content: '';
+  height: 20px;
+  border-left: solid 2px ;
+  position: absolute;
+  transform: rotate(-45deg);
+}
 
 
 
