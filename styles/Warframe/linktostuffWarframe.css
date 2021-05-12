@@ -1,0 +1,49 @@
+
+
+.horizontalalign  {
+  margin-bottom: 4%;
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.linkguildwars {
+text-decoration: none;
+color: white;
+}
+
+
+
+
+
+
+.leftblock {
+width: 20%;
+max-width: 400px;
+height: 400px;
+z-index: 10;
+background:#C4C4C4;
+margin-left: 1%;
+margin-right: 1%;
+/* box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.3); */
+opacity: 60%;
+background-image: url('../../image/imagesGuildWars2/guildwars2pvp.png');
+border-radius: 7px;
+transition: all 0.3s ease-in-out;
+
+
+
+text-align: center;
+line-height: 360px;
+font-family: "../../typo/GWTwoFont.ttf";
+  font-weight: 600;
+  font-size: 4em;
+  color: white;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.leftblock:hover {
+opacity: 100%;
+
+}
