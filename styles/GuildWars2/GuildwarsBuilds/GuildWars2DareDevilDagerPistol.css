@@ -10,6 +10,9 @@
     margin-right:1%;
     width:25%;
       background-color: black;
+      color: white;
+      line-height: 40px;
+      font-size: 22px;
   }
   .SkillBarText {
     margin-left:  1%;
@@ -17,104 +20,284 @@
       background-color: black;
       display: flex;
       flex-direction: row;
+      color: white;
+      line-height: 30px;
+      font-size: 22px;
   }
-  .skill1Bar1 {
+  .skillsText {
     width: 58px;
     background-color: grey;
     margin-right: 0.75%;
     height: 100%;
+    color: white;
+    line-height: 40px;
+
 
   }
-  .SkillWeapon1 {
+  .SkillWeapon1Text {
     margin-left: 0.75%;
     width: 28%;
     background-color: grey;
     margin-right: 0.5%;
     height: 100%;
+    color: white;
+    line-height: 48px;
+    font-size: 13px;
+    opacity: 0.6;
 
   }
-  .SkillWeapon2 {
+  .SkillWeapon2Text {
     margin-left: 0.5%;
     width: 28%;
     background-color: grey;
     margin-right: 0.75%;
     height: 100%;
+    color: white;
+    line-height: 48px;
+    font-size: 13px;
+    opacity: 0.6;
+
 
   }
-  .Healing {
+  .HealingText {
     margin-left: 0.75%;
     background-color: grey;
     margin-right: 0.5%;
     height: 100%;
     width: 58px;
+    color: white;
+    line-height: 48px;
+    font-size: 13px;
+    opacity: 0.6;
+
 
   }
-  .Utility {
+  .UtilityText {
     margin-left: 0.5%;
     width:25%;
     background-color: grey;
     margin-right: 0.5%;
     height: 100%;
+    color: white;
+    line-height: 48px;
+    font-size: 13px;
+    opacity: 0.6;
+
 
 
   }
-  .Elite {
+  .EliteText {
     margin-left: 0.5%;
     width: 58px;
     background-color: grey;
     height: 100%;
+    color: white;
+    line-height: 48px;
+    font-size: 13px;
+    opacity: 0.6;
+
 
   }
 
 
-
-
-
 .firstlineEquipmentSkillBar {
-  margin-top:0px;
+      margin-top:10px;
+      margin-left:2%;
+      margin-right:2%;
+      display: flex;
+      flex-direction: row;
+      height: 30px;
+      height: 150px;
+    }
+    .Equipement {
+      margin-right:1%;
+      width:25%;
+        background-color: black;
+        color: white;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    .SkillBar {
+      margin-left:  1%;
+      width: 73%;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .skills {
+      width: 58px;
+      background-color: grey;
+      margin-right: 0.75%;
+      height: 100%;
+      color: white;
+      line-height: 40px;
+
+    }
+    .SkillWeapon1 {
+      margin-left: 0.75%;
+      width: 28%;
+      background-color: grey;
+      margin-right: 0.5%;
+      height: 100%;
+      color: white;
+      line-height: 40px;
+      font-size: 15px;
+
+    }
+    .SkillWeapon2 {
+      margin-left: 0.5%;
+      width: 28%;
+      background-color: grey;
+      margin-right: 0.75%;
+      height: 100%;
+      color: white;
+      line-height: 40px;
+      font-size: 15px;
+
+
+    }
+    .Healing {
+      margin-left: 0.75%;
+      background-color: grey;
+      margin-right: 0.5%;
+      height: 100%;
+      width: 58px;
+      color: white;
+      line-height: 40px;
+      font-size: 15px;
+
+
+    }
+    .Utility {
+      margin-left: 0.5%;
+      width:25%;
+      background-color: grey;
+      margin-right: 0.5%;
+      height: 100%;
+      color: white;
+      line-height: 40px;
+      font-size: 15px;
+
+
+
+    }
+    .Elite {
+      margin-left: 0.5%;
+      width: 58px;
+      background-color: grey;
+      height: 100%;
+      color: white;
+      line-height: 40px;
+      font-size: 15px;
+
+
+    }
+
+
+.SpecializationsText {
+  margin-top: 30px;
+  height: 30px;
+  width: 96%;
+  background-color: black;
   margin-left:2%;
   margin-right:2%;
   display: flex;
   flex-direction: row;
-  margin-top: 0.5%;
-}
-
-
-
-.Equipement {
-  background-color: #3A3A3A;
-
-
-  margin-right: 1%;
-  width:25%;
-  height: 190px;
-
-
-
+  color: white;
+  line-height: 40px;
+  font-size: 22px;
 
 }
 
-.SkillBar {
-  margin-left:  1%;
-  width: 73%;
-  background-color: #3A3A3A;
-  height: 190px;
-}
+.Specializations {
+    margin-top: 10px;
+    height: 150px;
+    width: 96%;
+    background-color: black;
+    margin-left:2%;
+    margin-right:2%;
+    display: flex;
+    flex-direction: row;
 
-.RuneAmulette {
-  background-color: black;
-  height: 30px;
-  widg
-
-}
-
-.Arm1 {
-  background-color: #3A3A3A;
-
-}
+  }
 
 
-.Arm2 {
-  background-color: #3A3A3A;
+  .Specializations1{
+    margin-right: 1%;
+    width: 32%;
+    height: 100%;
+    background-color: grey;
 
-}
+  }
+
+
+  .Specializations2 {
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 32%;
+    height: 100%;
+    background-color: grey;
+
+  }
+  .Specializations3 {
+    margin-left: 1%;
+    width: 32%;
+    height: 100%;
+    background-color: grey;
+  }
+
+.TemplateText {
+    margin-top:30px;
+    margin-left:2%;
+    margin-right:2%;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: black;
+    color: white;
+    line-height: 40px;
+    font-size: 22px;
+
+  }
+  .TemplateCodeText {
+    width: 50%;
+    height: 100%;
+    background-color: grey;
+    margin-right: 1%;
+  }
+
+  .VariantsText {
+    width: 50%;
+    height: 100%;
+    background-color: grey;
+    margin-left: 1%;
+  }
+
+.Template {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100px;
+    background-color: black;
+  }
+
+  .TemplateCode {
+    width: 50%;
+    height: 100%;
+    background-color: grey;
+    margin-right: 1%;
+  }
+
+
+  .Variants {
+    width: 50%;
+    height: 100%;
+    background-color: grey;
+    margin-left: 1%;
+  }
