@@ -1,12 +1,12 @@
 
 body {
-  background: #2D2D2D;
+  background-image:  url("../../image/fondenrépétitiongris.png");
 
   animation: fadebackground 2s  ;
 }
 @keyframes fadebackground {
-  from {background-color:#black; opacity: 0%}
-  to {background-color: #2D2D2D; }
+  from {background-color:black; opacity: 0%}
+  to {background-color: #282828; }
 }
 
 

@@ -1,5 +1,6 @@
 
 body {
+    background-image:  url("../../image/fondenrépétitiongris.png");
 background-color: #2D2D2D;
   animation: fadebackground 1.5s  ;
 }

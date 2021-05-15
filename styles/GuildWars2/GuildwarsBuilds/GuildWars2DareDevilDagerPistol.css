@@ -1,22 +1,131 @@
 .firstlineEquipmentSkillBarText {
     margin-top:75px;
-    margin-left:2%;
-    margin-right:2%;
+    margin-left:20px;
+    margin-right:20px;
     display: flex;
     flex-direction: row;
     height: 30px;
   }
-  .EquipementText {
-    margin-right:1%;
-    width:25%;
-      background-color: black;
+
+  .Equipement {
+    margin-right:15px;
+    width:400px;
+
+  }
+
+.Equipementtoppart {
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+
+}
+.Equipementmiddlepart {
+  height: 10px;
+}
+
+.Equipementbottompart {
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Runeforbattle {
+width: 64px;
+margin-right:10px;
+}
+
+.Equipementweapon1 {
+  width: 133px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+
+.Equipementweapon2 {
+  width: 133px;
+  height: 100%;
+  margin-left:10px;
+}
+
+
+.Amulettetype {
+width: 64px;
+margin-right:10px;
+}
+
+.Equipementweapon1Rune {
+  width: 133px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+
+.Equipementweapon2Rune {
+  width: 133px;
+  height: 100%;
+  margin-left:10px;
+}
+
+
+
+.signe1 {
+  position: absolute;
+  top: 158px;
+  left: 160px;
+}
+
+.signe2 {
+  position: absolute;
+  top: 158px;
+  left: 311px;
+}
+
+.signe1rune {
+  position: absolute;
+  top:230px;
+  left: 160px;
+}
+
+.signe2rune {
+  position: absolute;
+  top: 230px;
+  left: 311px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .EquipementweaponText {
+      margin-right:19.2px;
+      min-width:400px;
       color: white;
       line-height: 40px;
       font-size: 22px;
   }
   .SkillBarText {
-    margin-left:  1%;
-    width: 73%;
+    margin-left:  19.2px;
+    width: 1400px;
       background-color: black;
       display: flex;
       flex-direction: row;
@@ -25,7 +134,7 @@
       font-size: 22px;
   }
   .skillsText {
-    width: 58px;
+    width: 64px;
     background-color: grey;
     margin-right: 0.75%;
     height: 100%;
@@ -35,10 +144,10 @@
 
   }
   .SkillWeapon1Text {
-    margin-left: 0.75%;
-    width: 28%;
+    margin-left: 14.4px;
+    width: 537.6px;
     background-color: grey;
-    margin-right: 0.5%;
+    margin-right: 9.6px;
     height: 100%;
     color: white;
     line-height: 48px;
@@ -47,10 +156,10 @@
 
   }
   .SkillWeapon2Text {
-    margin-left: 0.5%;
-    width: 28%;
+    margin-left:  9.6px;
+    width: 537.6px;
     background-color: grey;
-    margin-right: 0.75%;
+    margin-right: 14.4px;
     height: 100%;
     color: white;
     line-height: 48px;
@@ -60,11 +169,11 @@
 
   }
   .HealingText {
-    margin-left: 0.75%;
+    margin-left:14.4px;
     background-color: grey;
     margin-right: 0.5%;
     height: 100%;
-    width: 58px;
+    width: 64px;
     color: white;
     line-height: 48px;
     font-size: 13px;
@@ -73,10 +182,10 @@
 
   }
   .UtilityText {
-    margin-left: 0.5%;
-    width:25%;
+    margin-left: 9.6px;
+    width:480px;
     background-color: grey;
-    margin-right: 0.5%;
+    margin-right: 9.6px;
     height: 100%;
     color: white;
     line-height: 48px;
@@ -87,7 +196,7 @@
 
   }
   .EliteText {
-    margin-left: 0.5%;
+    margin-left: 9.6px;
     width: 58px;
     background-color: grey;
     height: 100%;
@@ -102,33 +211,25 @@
 
 .firstlineEquipmentSkillBar {
       margin-top:10px;
-      margin-left:2%;
-      margin-right:2%;
+      margin-left:20px;
+      margin-right:20px;
       display: flex;
       flex-direction: row;
-      height: 30px;
-      height: 150px;
+      height: 138px;
     }
-    .Equipement {
-      margin-right:1%;
-      width:25%;
-        background-color: black;
-        color: white;
-        line-height: 40px;
-        font-size: 20px;
-    }
+
     .SkillBar {
-      margin-left:  1%;
-      width: 73%;
+      margin-left:  19.2px;
+      width: 1400px;
         background-color: black;
         display: flex;
         flex-direction: row;
         color: white;
         line-height: 30px;
-        font-size: 20px;
+        font-size: 22px;
     }
     .skills {
-      width: 58px;
+      width: 64px;
       background-color: grey;
       margin-right: 0.75%;
       height: 100%;
@@ -137,14 +238,15 @@
 
     }
     .SkillWeapon1 {
-      margin-left: 0.75%;
-      width: 28%;
+      margin-left: 14.4px;
+      width: 537.6px;
       background-color: grey;
-      margin-right: 0.5%;
+      margin-right: 9.6px;
       height: 100%;
       color: white;
-      line-height: 40px;
-      font-size: 15px;
+      line-height: 48px;
+      font-size: 13px;
+      opacity: 0.6;
 
     }
     .SkillWeapon2 {
